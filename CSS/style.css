@@ -1,3 +1,5 @@
+
+
 p{
   text-align: justify;
 }
@@ -5,6 +7,19 @@ p{
 h2{
   text-align:center;
   color: cadetblue;
+  transition: 2s;
+}
+
+h2:hover {
+
+  color: orange;
+  cursor: pointer;
+}
+
+.glyphicon:hover {
+  font-size: 4.5em;
+  color: tomato;
+  cursor: wait;
 }
 
 .container{
@@ -21,6 +36,7 @@ h2{
 }
 
 .glyphicon{
+  transition: .5s;
  font-size: 3.5em;
  text-align: center;
 
@@ -50,6 +66,7 @@ h2{
 .cold{
   min-height: 450px;
   width: auto;
+  border-radius: 5px 700px 5px;
 }
 .jumbotron {
 text-align: center;
@@ -59,12 +76,14 @@ min-height: 600px;
 }
 
 .carousel-inner{
-
   margin-top: auto;
-  /*background-color: red;*/
 }
 
 .btn{
   margin-bottom: 10px;
   padding-top: 7px;
+}
+
+.img-responsive {
+  border-radius: 5px 20px 5px;
 }
