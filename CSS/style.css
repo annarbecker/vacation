@@ -59,7 +59,12 @@ min-height: 600px;
 }
 
 .carousel-inner{
-  
+
   margin-top: auto;
   /*background-color: red;*/
+}
+
+.btn{
+  margin-bottom: 10px;
+  padding-top: 7px;
 }
