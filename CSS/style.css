@@ -3,6 +3,7 @@ p{
 }
 
 h2{
+  text-align:center;
   color: cadetblue;
 }
 
@@ -17,4 +18,48 @@ h2{
 
 .jumbotron {
   margin-top: 50px
+}
+
+.glyphicon{
+ font-size: 3.5em;
+ text-align: center;
+
+ display: block;
+}
+
+.glyphicon-globe{
+  color: forestgreen;
+}
+
+.glyphicon-tree-conifer {
+  color: limegreen;
+}
+
+.carousel-indicators {
+  bottom: 0;
+}
+
+.carousel-indicators .active {
+  background-color: #222;
+}
+
+.carousel-indicators li {
+  border-color: #222;
+}
+
+.cold{
+  min-height: 450px;
+  width: auto;
+}
+.jumbotron {
+text-align: center;
+background-color: #4dffdc;
+min-height: 600px;
+
+}
+
+.carousel-inner{
+  
+  margin-top: auto;
+  /*background-color: red;*/
 }
