@@ -5,3 +5,16 @@ p{
 h2{
   color: cadetblue;
 }
+
+.container{
+  width: 80%;
+}
+
+.main-navigation{
+  padding: 30px 15px;
+
+}
+
+.jumbotron {
+  margin-top: 50px
+}
